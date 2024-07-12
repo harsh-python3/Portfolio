@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/Blanka.jpg" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    
+    
+    <script
+      src="https://kit.fontawesome.com/53340cb732.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="index.html">
+            <!-- <img src="images/Blanka.jpg" class="logo" /> -->
+          </a>
+          <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          
+            <div id="box" class="box1">    
+              <p>
+              <p class="alpha">U</p>
+              <p class="alpha">I</p>
+              <p class="alpha">/</p>
+              <p class="alpha">U</p>
+              <p class="alpha">X</p>
+              <span id="me" class="me">
+                  <p class="alpha">D</p>
+                  <p class="alpha">e</p>
+                  <p class="alpha">s</p>
+                  <p class="alpha">i</p>
+                  <p class="alpha">g</p>
+                  <p class="alpha">n</p>
+                  <p class="alpha">e</p>
+                  <p class="alpha">r</p>
+              </span>
+                   </p>
+                  </div>
+          <!-- <h1>Hi, I'm <span>Harshit</span><br />Maheshwari From India</h1> -->
+
+          <div id="box" class="box2">    
+            <h1 class="alpha">H</h1>
+            <h1 class="alpha">i</h1>
+            <h1 class="alpha">,</h1>
+            <span id="me">
+                <h1 class="alpha">I</h1>
+                <h1 class="alpha">'<h1>
+                <h1 class="alpha">m</h1>
+            </span>
+            <span id="me">
+              <h1 class="alpha" style="color: #ff004f;">H</h1>
+              <h1 class="alpha">a<h1>
+              <h1 class="alpha">r</h1>
+              <h1 class="alpha">s</h1>
+              <h1 class="alpha">h</h1>
+              
+          </span>
+                </div>
+
+                <div id="box" class="box3">    
+                  <h1 class="alpha">M</h1>
+                  <h1 class="alpha">a<h1>
+                  <h1 class="alpha">h</h1>
+                  <h1 class="alpha">e</h1>
+                  <h1 class="alpha">s</h1>
+                  <h1 class="alpha">h</h1>
+                  <h1 class="alpha">w</h1>
+                  <h1 class="alpha">a</h1>
+                  <h1 class="alpha">r</h1>
+                  <h1 class="alpha">i</h1>
+                <span id="me">
+                  <h1 class="alpha">F</h1>
+                  <h1 class="alpha">r</h1>
+                  <h1 class="alpha">o</h1>
+                  <h1 class="alpha">m</h1>
+              </span>
+              <span id="me" >
+                <h1 class="alpha">I</h1>
+                <h1 class="alpha">n</h1>
+                <h1 class="alpha">d</h1>
+                <h1 class="alpha">i</h1>
+                <h1 class="alpha">a</h1>
+            </span>
+                      </div>
+
+
+
+
+
+
+
+
+
+          <button class="head-btn"><a href="#contact">Hire me</a></button>
+
+
+
+
+
+
+          <p class="visitors">Total Visits : <span id="visit">0</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------about-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <!-- <img src=".\/images/about2.jpg" alt="" /> -->
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">
+              <div id="box">    
+        <h1 class="alpha">A</h1>
+        <h1 class="alpha">b</h1>
+        <h1 class="alpha">o</h1>
+        <h1 class="alpha">u</h1>
+        <h1 class="alpha">t</h1>
+        <span id="me">
+            <h1 class="alpha">m</h1>
+            <h1 class="alpha">e</h1>
+        </span>
+            </div>
+          </h1>
+            <p>
+              I'm Harsh Maheshwari. I’m a web developer. I spend my whole day,
+               experimenting with HTML, CSS, and
+              JavaScript. I'm a fitness lover. I'm a Freelancer. I build
+              websites that delight and inform. I do it well. I’m curious, and I
+              enjoy work that challenges me to learn something new and stretch
+              in a different direction.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Design</span><br />Designing App interfaces
+                </li>
+                <li>
+                  <span>Web Development</span><br />Converting Plain Text to Web Interfaces
+                </li>
+              </ul>
+              <div class="skill-circles">
+
+              
+
+              <div class="circle-1 circle">
+                <p>85%</p>
+                <p>HTML</p>
+              </div>
+              <div class="circle-2 circle">
+                <p>70%</p>
+                <p>CSS</p>
+              </div>
+              <div class="circle-3 circle">
+                <p>50%</p>
+                <p>JAVASCRIPT</p>
+              </div>
+            </div>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>lorem</span><br />Lorem ipsum dolor sit amet.</li>
+                <li><span>Lorem.</span><br />Lorem ipsum dolor sit amet.</li>
+                <li>
+                  <span>Lorem, ipsum.</span><br />Lorem ipsum dolor sit amet.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>lorem</span><br />Lorem ipsum dolor sit amet.</li>
+                <li><span>Lorem.</span><br />Lorem ipsum dolor sit amet.</li>
+                <li>
+                  <span>2021-2025</span><br />Bachelor of Technology in Computer
+                  Science,<br />GLA UNIVERSITY(Mathura)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------services------------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">
+          
+          <h1 class="sub-title">
+            <div id="box">    
+      <h1 class="alpha">M</h1>
+      <h1 class="alpha">y</h1>
+      <span id="me">
+          <h1 class="alpha">S</h1>
+          <h1 class="alpha">e</h1>
+          <h1 class="alpha">r</h1>
+          <h1 class="alpha">v</h1>
+          <h1 class="alpha">i</h1>
+          <h1 class="alpha">c</h1>
+          <h1 class="alpha">e</h1>
+          <h1 class="alpha">s</h1>
+      </span>
+          </div>
+        </h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design encompasses many different skills and disciplines in
+              the production and maintenance of websites. The different areas of
+              web design include web graphic design; user interface design;
+              authoring, including standardised code and proprietary software;
+              user experience design; and search engine optimization.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- --------------count--------------------- -->
+
+
+<div id="counting">
+  <div class="container">
+    <div class="row row2">
+      <div class="col-4">
+        <i class="fa-solid fa-bars-progress"></i>
+        <div class="num">03</div>
+        <div class="count-name">
+          Projects
+        </div>
+      </div>
+      <div class="col-4">
+        <i class="fa-solid fa-face-laugh-wink"></i>
+        <div class="num">16</div>
+        
+        <div class="count-name">
+          Happy Clients
+        </div>
+      </div>
+      <div class="col-4">
+        <i class="fa-solid fa-mug-hot"></i>
+        <div class="num">08</div>
+       
+        <div class="count-name">
+          Cup of Coffee
+        </div>
+      </div>
+      <div class="col-4">
+        <i class="fa-solid fa-object-group"></i>
+        <div class="num">32</div>
+        
+        <div class="count-name">
+          Templates
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- -----------portfolio------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">
+          
+          <div id="box">    
+            <h1 class="alpha">M</h1>
+            <h1 class="alpha">y</h1>
+            <span id="me">
+                <h1 class="alpha">W</h1>
+                <h1 class="alpha">o</h1>
+                <h1 class="alpha">r</h1>
+                <h1 class="alpha">k</h1>
+            </span>
+                  
+                </div>
+          </h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Social media is a
+                website or application that allows you to create and share
+                content while engaging with other users.
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Music Player</h3>
+              <p>
+                A Web application that allows you to listen to music
+                files stored in the phone's internal or external memory.
+              </p>
+              <a href="https://harshitmah.github.io/DAaNa_Music/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Online shopping or e-shopping is searching for and purchasing
+                goods and services over the Internet through the use of a web
+                browser.
+              </p>
+              <a href="https://harshitmah.github.io/Lala-Store/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Harshitmah" class="btn" target="_blank">See more</a>
+      </div>
+    </div>
+
+
+
+    <!-- ----------------hire me------------------- -->
+
+
+
+    <div id="hire-me">
+      <div class="container">
+        <h1 class="alpha">I'm Available For  <span>FreeLancing.</span></h1>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- -------------------testimonial----------------------- -->
+
+    <div id="testimonial">
+      <div class="container">
+        <h1 class="sub-title">
+          
+          <div id="box">    
+            <h1 class="alpha">T</h1>
+            <h1 class="alpha">e</h1>
+            <h1 class="alpha">s</h1>
+            <h1 class="alpha">t</h1>
+            <h1 class="alpha">i</h1>
+            <h1 class="alpha">m</h1>
+            <h1 class="alpha">o</h1>
+            <h1 class="alpha">n</h1>
+            <h1 class="alpha">i</h1>
+            <h1 class="alpha">a</h1>
+            <h1 class="alpha">l</h1>
+            <h1 class="alpha">s</h1>
+            
+                </div>
+          </h1>
+        <div class="row">
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquam, facere delectus debitis, nostrum minus voluptatem nobis, officia obcaecati quidem temporibus adipisci inventore ut expedita est dignissimos minima aperiam error!</p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+          </div>
+            <img src="./images/user-1.png" alt="">
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquam, facere delectus debitis, nostrum minus voluptatem nobis, officia obcaecati quidem temporibus adipisci inventore ut expedita est dignissimos minima aperiam error!</p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+          </div>
+            <img src="./images/user-2.png" alt="">
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At aliquam, facere delectus debitis, nostrum minus voluptatem nobis, officia obcaecati quidem temporibus adipisci inventore ut expedita est dignissimos minima aperiam error!</p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+          </div>
+            <img src="./images/user-3.png" alt="">
+            <h3>Sean Parker</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- ---------------contact--------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">
+              
+              
+              <div id="box">    
+                <h1 class="alpha">C</h1>
+                <h1 class="alpha">o</h1>
+                <h1 class="alpha">n</h1>
+                <h1 class="alpha">t</h1>
+                <h1 class="alpha">a</h1>
+                <h1 class="alpha">c</h1>
+                <h1 class="alpha">t</h1>
+                <span id="me">
+                    <h1 class="alpha">m</h1>
+                    <h1 class="alpha">e</h1>
+                </span>
+                    </div>
+              </h1>
+            <p><i class="fa-solid fa-envelope"></i>harshmahe28@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i></i> 7618519305</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/harshit.maheshwari.944"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/its_harsh_maheshwari/?next=%2F"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/harsh-maheshwari-85569a273/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="./images/images/my-cv.pdf" download class="btn btn2 cv-btn"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                id=""
+                placeholder="Your Email"
+                required
+              />
+              <input type="text" placeholder="Phone Number" name="Phone">
+              <textarea
+                name="Message"
+                id=""
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &#169; Harsh. Made with
+          <i class="fa-solid fa-heart"></i> by Harsh Maheshwari
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    
+    <script type="text/javascript">
+
+      $(".num").counterUp({delay:10,time:1000});
+
+    </script>
+
+<script>
+        
+  
+
+</script>
+
+
+  </body>
+</html>
